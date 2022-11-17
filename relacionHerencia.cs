@@ -52,9 +52,14 @@ abstract class F{
 }
 
 class G : F{
-    private int s = 998833;
+    private int s;
 
+    public G()
+    {
+        s = 9998833;
+    }
 
+   
 }
 
 
@@ -65,7 +70,8 @@ class TersterClass{
     public static void Main()
     {
         // F letra = new F();
-         G letra0 = new G();
+        G letra0 = new G();
+
         letra0.verObjeto();
     }
 }
